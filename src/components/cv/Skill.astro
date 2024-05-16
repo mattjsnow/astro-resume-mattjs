@@ -1,0 +1,15 @@
+---
+import Section from "../Section.astro";
+import SkillLayout from "../SkillLayout.astro";
+
+const languages = ['lorem', 'ipsum'];
+const frontend = ['lorem', 'ipsum', 'lorem', 'ipsum', 'lorem', 'ipsum', 'lorem'];
+const backend = ['lorem', 'ipsum', 'lorem', 'ipsum'];
+const others = ['lorem', 'ipsum', 'lorem', 'ipsum', 'lorem'];
+---
+<Section id="skills" title="Skills">
+    <SkillLayout title="Languages" skills={languages} />
+    <SkillLayout title="Backend" skills={backend} />
+    <SkillLayout title="Frontend" skills={frontend} />
+    <SkillLayout title="Others" skills={others} />
+</Section>

@@ -1,0 +1,32 @@
+---
+import Card from "../Card.astro";
+import Section from "../Section.astro";
+
+---
+<Section id="education" title="Education">
+    <Card
+        class="bg-background-secondary flex w-full flex-col gap-x-7 gap-y-1 p-5 text-secondary-foreground"
+        heading="Lorem Ipsum"
+        subheading="amet consectetur adipisicing"
+        date="June 2021 - Jan 2024"
+        altText="Lorem, ipsum dolor sit amet"
+    >
+        <ul class="ml-4 list-disc text-muted-foreground">
+            <li>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis
+                recusandae, ut molestiae laboriosam pariatur!
+
+                <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, pariatur!
+                </li>
+            </li>
+        </ul>
+    </Card>
+    <Card
+        class="bg-background-secondary flex w-full flex-col gap-x-7 gap-y-1 p-5 text-secondary-foreground"
+        heading="Lorem Ipsum"
+        subheading="amet consectetur adipisicing"
+        date="June 2021 - Jan 2024"
+        altText="Lorem, ipsum dolor sit amet"
+    />
+</Section>
